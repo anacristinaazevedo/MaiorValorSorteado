@@ -3,7 +3,7 @@ const entradas = [5, 50, 10, 98, 25];
 let i = 0;
 
 function gets (){
-    const valor = entradas[1];
+    const valor = entradas[i];
     i++;
     return valor;
 }
